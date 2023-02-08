@@ -7,6 +7,10 @@
 #define NBITS         250
 //#define HALF_NBITS    ( NBITS / 2 )
 
+//M21AIE249: Set the WAVE_DUMP flag to enable VCD dump
+
+#define WAVE_DUMP 1
+
 // +2 is for the format specifier '0b' to make the strin    g binary.
 //#define STR_SIZE      ( NBITS + 2 )
 //#define HALF_STR_SIZE ( HALF_NBITS + 2 )
